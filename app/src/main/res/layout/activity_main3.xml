@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/output_page"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text=""
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ID:"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="230dp"
+        android:text=""
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="230dp"
+        android:text="SPECIES NAME:"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_sci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="260dp"
+        android:text=""
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textsci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="260dp"
+        android:text="SCIENTIFIC NAME:"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="290dp"
+        android:text=""
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:text="LOCATION :"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="320dp"
+        android:text=""
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/buttoncolor"
+        android:text="Search Another Monkey"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="320dp"
+        android:text="INFO :"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"/>
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="199dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        android:background="#000000"
+        android:padding="1dp"
+        />
+</RelativeLayout>
